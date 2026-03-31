@@ -1,0 +1,17 @@
+title: "System Monitor"
+refresh_interval: 2
+layout: "2x2"
+panels:
+  - type: metrics
+    title: "System Info"
+    sources: [hostname, uptime, load_average]
+  - type: progress
+    title: "Resources"
+    sources: [cpu, memory, disk]
+  - type: log
+    title: "Recent Logs"
+    source: "/var/log/syslog"
+    lines: 10
+  - type: status
+    title: "Services"
+    checks: [nginx, mysql, redis]
