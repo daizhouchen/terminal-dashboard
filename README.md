@@ -2,7 +2,7 @@
 
 > One command, one config file, one beautiful terminal dashboard.
 
-A [Claude Code](https://claude.ai/code) skill that generates customizable terminal-based real-time dashboards using Python's [Rich](https://github.com/Textualize/rich) library — monitor system resources, services, logs, and custom metrics.
+An [OpenClaw](https://openclawskill.ai) skill that generates customizable terminal-based real-time dashboards using Python's [Rich](https://github.com/Textualize/rich) library — monitor system resources, services, logs, and custom metrics.
 
 ## Features
 
@@ -24,7 +24,7 @@ A [Claude Code](https://claude.ai/code) skill that generates customizable termin
 ## Installation
 
 ```bash
-claude skill add daizhouchen/terminal-dashboard
+npx @anthropic-ai/claw@latest skill add daizhouchen/terminal-dashboard
 ```
 
 ## How It Works
